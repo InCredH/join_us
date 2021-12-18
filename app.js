@@ -26,6 +26,7 @@ app.get("/", function(req, res) {
     //     // res.send("We have " + count + " users in our DB");
     //     res.render("home", {data:count});
     // });
+    console.log("inside home");
     res.render("home");
     
 });
